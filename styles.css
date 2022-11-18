@@ -35,4 +35,17 @@ input {
 
 img {
 	max-width: 300px;
+	border-radius: 20%;
+}
+.button{
+	background-color: yellow;
+	font-size: large;
+}
+.wbutton{
+	background-color: rebeccapurple;
+	color: white;
+	font-size: smaller;
+}
+#image {
+	border-radius: 80%;
 }

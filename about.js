@@ -5,10 +5,19 @@ console.log("hello world");
 function handleSubmit(evt) {
 	evt.preventDefault();
 	
-	console.log('form submit');
+	alert('form submit');
+}
+function giveCompliment(evt) {
+	// evt.preventDefault();
+	
+	alert('you can do it');
 }
 
 
-let form = document.querySelector('#contact');
+// let form = document.querySelector('#contact');
+let form = document.querySelector('#submit');
+let image = document.querySelector('img');
 
-form.addEventListener('submit', handleSubmit);
+form.addEventListener('click', handleSubmit);
+image.addEventListener('mouseover', giveCompliment);
+
